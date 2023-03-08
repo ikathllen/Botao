@@ -70,3 +70,15 @@ button i::after{
     background: #fff;
     transition: 0.2s;
 }
+button:hover i::before{
+    width: 15px;
+    left: 20%;
+    border-radius: 50px;
+    animation: move 2s infinite;
+}
+button:hover i::after{
+    width: 15px;
+    left: 70%;
+    border-radius: 50px;
+    animation: move 2s infinite;
+}
