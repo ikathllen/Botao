@@ -12,3 +12,16 @@ body{
     min-height: 100vh;
     background: #716288;
 }
+button{
+    position: relative;
+    color: #000;
+    background: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 30px;
+    letter-spacing: 0.1rem;
+    font-size: 1.2rem;
+    padding: 1rem 3rem;
+    transition: 0.2s;
+}
