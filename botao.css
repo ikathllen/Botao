@@ -43,3 +43,19 @@ button span{
     position: relative;
     z-index: 1;
 }
+button i{
+    position: absolute;
+    inset: 0;
+    display: block;
+}
+button i::before{
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 2px;
+    left: 70%;
+    top: -2.3px;
+    border: 2px solid var(--clr);
+    background: #fff;
+    transition: 0.2s;
+}
