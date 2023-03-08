@@ -39,3 +39,7 @@ button::before{
     background: #fff;
     border-radius: 30px;
 }
+button span{
+    position: relative;
+    z-index: 1;
+}
