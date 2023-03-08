@@ -59,3 +59,14 @@ button i::before{
     background: #fff;
     transition: 0.2s;
 }
+button i::after{
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 2px;
+    left: 20%;
+    top: -2.3px;
+    border: 2px solid var(--clr);
+    background: #fff;
+    transition: 0.2s;
+}
