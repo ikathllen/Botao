@@ -10,5 +10,24 @@ body{
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background: #716288;
+    background: #646ac0;
+}
+.botao {
+    font-family: inherit;
+    font-weight: 400;
+    background: #014d27;
+    color: #fff;
+    padding: 0.35em 0;
+    font-size: 17px;
+    border: none;
+    border-radius: 0.7em;
+    letter-spacing: 0.08em;
+    position: relative;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    overflow: hidden;
+    height: 2.1em;
+    padding-left: 3em;
+    padding-right: 0.7em;
 }
