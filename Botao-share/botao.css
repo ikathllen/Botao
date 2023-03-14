@@ -10,10 +10,10 @@ body{
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background: #646ac0;
+    background: #212231;
 }
 .botao {
-    font-family: inherit;
+    font-family: 'Courier New', Courier, monospace;
     font-weight: 400;
     background: #014d27;
     color: #fff;
@@ -27,9 +27,9 @@ body{
     align-content: center;
     align-items: center;
     overflow: hidden;
-    height: 2.1em;
+    height: 3em;
     padding-left: 3em;
-    padding-right: 0.7em;
+    padding-right: 1em;
 }
 .botao .icon {
     background: #fff;
@@ -47,7 +47,7 @@ body{
 .share {
     width: 1.3rem;
     height: 1.3rem;
-    margin-left: 4px;
+    margin-left: 2px;
 }
 .botao:hover .icon {
     width: calc(100% - 0.6rem);
@@ -63,5 +63,6 @@ body{
     display: none;
 }
 .botao:hover .icon .icon-share {
+    margin-left: 10px;
     display: flex;
 }
