@@ -31,3 +31,16 @@ body{
     padding-left: 3em;
     padding-right: 0.7em;
 }
+.botao .icon {
+    background: #fff;
+    margin-right: 1em;
+    height: 2.2em;
+    width: 2.2em;
+    border-radius: 0.5em;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 0.3em;
+    transition: all .7s;
+}
