@@ -49,3 +49,6 @@ body{
     height: 1.3rem;
     margin-left: 4px;
 }
+.botao:hover .icon {
+    width: calc(100% - 0.6rem);
+   }
