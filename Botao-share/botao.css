@@ -51,4 +51,17 @@ body{
 }
 .botao:hover .icon {
     width: calc(100% - 0.6rem);
-   }
+}
+.botao:hover .share {
+    width: calc(100% - 0.6rem);
+    display: none;
+}
+.botao .icon-share {
+    color: #014d27;
+    width: 2rem;
+    height: 2rem;
+    display: none;
+}
+.botao:hover .icon .icon-share {
+    display: flex;
+}
