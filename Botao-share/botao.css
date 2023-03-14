@@ -44,3 +44,8 @@ body{
     left: 0.3em;
     transition: all .7s;
 }
+.share {
+    width: 1.3rem;
+    height: 1.3rem;
+    margin-left: 4px;
+}
